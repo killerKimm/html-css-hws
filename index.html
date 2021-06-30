@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- заголовок -->
     <header>
       <nav class="navigation">
-        <a href="./index.html" class="main-page">WebStudio</a>
-        <ul>
+        <a href="./index.html" class="logo"
+          >Web<span class="navigation-logo">Studio</span></a
+        >
+        <ul class="list">
           <li>
             <a href="./studio.html" class="navigation-link">Студия</a>
           </li>
@@ -22,24 +25,26 @@
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact list">
         <li>
-          <a href="#">info@devstudio.com</a>
+          <a href="mailto:info@example.com" class="contact-item"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="#">+38 096 111 11 11</a>
+          <a href="tel:+380991111111" class="contact-item">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
+    <!-- тело страницы -->
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="hero-button">Заказать услугу</button>
       </section>
-
       <section>
         <h2 class="main-title">Наши особенности</h2>
-        <ul>
+        <ul class="list">
           <li>
             <h3 class="title">Внимание к деталям</h3>
             <p>
@@ -75,7 +80,7 @@
       </section>
       <section>
         <h2 class="main-title">Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/img.jpg" alt="рабочее место" width="400" />
           </li>
@@ -89,7 +94,7 @@
       </section>
       <section>
         <h2 class="main-title">Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/img(1).jpg" alt="фото Игоря" width="400" />
             <h3 class="title">Игорь Демьяненко</h3>
@@ -116,18 +121,25 @@
         </ul>
       </section>
     </main>
+    <!-- подвал -->
     <footer class="footer">
-      <a href="./">WebStudio</a>
+      <a href="./index.html" class="logo"
+        >Web<span class="footer-logo">Studio</span></a
+      >
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="#">г. Киев, пр-т Леси Украинки, 26</a>
+            <a href="#" class="footer-map">г. Киев, пр-т Леси Украинки, 26</a>
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="mailto:info@example.com" class="footer-contact"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="footer-contact"
+              >+38 099 111 11 11</a
+            >
           </li>
         </ul>
       </address>

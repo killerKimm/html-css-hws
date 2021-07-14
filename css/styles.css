@@ -13,8 +13,8 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  
-  font-family: roboto;
+
+  font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -29,7 +29,7 @@ body {
 
 /* скрытые заголовки */
 .hidden-title {
-  visibility: hidden;
+  display: none;
 }
 
 /* навигация и контыкты*/
@@ -134,16 +134,14 @@ span.footer-logo {
 .projects .main-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 2.0;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
-.projects .text{
-  font-weight: 400;
-  ont-size: 16px;
+.projects .text {
+  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-
 }
 
 .title {
@@ -162,10 +160,8 @@ span.footer-logo {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
 }
-.team .text{
-  font-weight: 400;
+.team .text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -180,7 +176,6 @@ span.footer-logo {
   color: var(--primary-white-color);
 
   text-decoration: none;
-text
 }
 
 .footer-contact {
@@ -188,4 +183,3 @@ text
 
   text-decoration: none;
 }
-

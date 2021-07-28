@@ -45,6 +45,7 @@ body {
   list-style: none;
 }
 
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -297,6 +298,8 @@ span.footer-logo {
 .projects .text {
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
+
 }
 
 .title {
@@ -313,6 +316,9 @@ span.footer-logo {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+
+  letter-spacing: 0.03em;
+
 }
 .team .text {
   font-size: 16px;

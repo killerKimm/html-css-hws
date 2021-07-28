@@ -24,6 +24,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -85,11 +89,6 @@ body {
   justify-content: center;
 }
 
-.section-asaide {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .section .aside .list-item {
   width: 270px;
 }
@@ -105,7 +104,7 @@ body {
 }
 
 .section-content {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 .content .list-item + .list-item {
   margin-left: 30px;
@@ -125,8 +124,6 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--button-background);
 }
 
@@ -153,17 +150,19 @@ body {
 }
 .container .address {
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 .address {
   font-style: normal;
 }
-.footer .logo {
-  margin-top: 60px;
-}
+
 .footer .container {
   display: flex;
   flex-direction: column;
+}
+
+.footer .section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* навигация и контыкты*/

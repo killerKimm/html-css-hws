@@ -45,7 +45,6 @@ body {
   list-style: none;
 }
 
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -140,6 +139,7 @@ body {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .projects .list-item:nth-child(3n) {
@@ -299,7 +299,6 @@ span.footer-logo {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-
 }
 
 .title {
@@ -318,7 +317,6 @@ span.footer-logo {
   text-align: center;
 
   letter-spacing: 0.03em;
-
 }
 .team .text {
   font-size: 16px;

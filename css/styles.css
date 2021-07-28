@@ -32,8 +32,18 @@ body {
   border-bottom: 1px solid #ececec;
 }
 /* скрытые заголовки */
-.hidden-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* стиль списка */
@@ -132,7 +142,7 @@ body {
 .container .projects {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 76px;
+  padding-bottom: 76px;
 }
 
 .projects .list-item {
@@ -268,6 +278,8 @@ span.footer-logo {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  padding-top: 112px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;

@@ -28,6 +28,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -53,7 +54,16 @@ body {
   margin-right: auto;
 }
 
-.navigation-flex {
+.page-header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.page-header .container {
+  display: flex;
+}
+
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -66,9 +76,12 @@ body {
   display: flex;
 }
 
-.navigation .contact {
+.container .contact {
+  display: inline-flex;
+  align-items: center;
   margin-left: auto;
 }
+
 .navigation .navigation-link {
   display: block;
   padding-bottom: 32px;
@@ -78,7 +91,7 @@ body {
   margin-left: 50px;
 }
 
-.navigation .contact-item + .contact-item {
+.container .contact-item + .contact-item {
   margin-left: 50px;
 }
 
@@ -159,6 +172,8 @@ body {
 .footer .container {
   display: flex;
   flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .section {
@@ -190,7 +205,11 @@ body {
 .navigation-link:hover,
 .navigation-link:focus,
 .contact-link:hover,
-.contact-link:focus {
+.contact-link:focus,
+.footer-map:hover,
+.footer-map:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--accent-color);
 }
 /* герой */
@@ -221,6 +240,8 @@ body {
   border-color: transparent;
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+
+  font-weight: 700;
 }
 
 /* текущая страница */

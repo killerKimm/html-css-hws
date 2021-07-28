@@ -327,6 +327,7 @@ span.footer-logo {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  text-transform: none;
 
   letter-spacing: 0.03em;
 }

@@ -24,6 +24,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  fill: var(--picture-color);
 }
 
 h1,
@@ -170,6 +172,7 @@ ul {
   display: flex;
 
   background-color: var(--button-background);
+  border-radius: 4px;
 }
 
 .asaide-icon {
@@ -190,6 +193,10 @@ ul {
 
 .section-content {
   padding-top: 0px;
+}
+
+.section-content .main-title {
+  margin-bottom: 50px;
 }
 .content .list-item + .list-item {
   margin-left: 30px;
@@ -246,8 +253,16 @@ ul {
   border-radius: 50%;
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-picture {
+  height: 22px;
+  width: 22px;
+}
+
+.social-link {
+  fill: var(--picture-color);
+}
+.list-item .social-link:hover,
+.list-item .social-link:focus {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -257,10 +272,47 @@ ul {
   justify-content: center;
 }
 
-.social-picture {
-  height: 22px;
-  width: 22px;
+/* partners */
+
+.clients .main-title {
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-picture {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-link {
   fill: var(--picture-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
+.clients-list .list-item + .list-item {
+  margin-left: 30px;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 1px solid var(--picture-color);
+  border-radius: 4%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* portfolio */
